@@ -42,3 +42,7 @@ ul.configSvg {
 .table-container {
     height: 300px;
 }
+
+.form-submit-buttons {
+    margin : 0 3px;
+}

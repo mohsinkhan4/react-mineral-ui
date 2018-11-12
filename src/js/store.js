@@ -4,6 +4,6 @@ import promise from "redux-promise-middleware"
 import thunk from "redux-thunk"
 import { createLogger } from "redux-logger"
 
-import reducer from "./reducers"
+import reducer from "./backup/reducers/index"
 
 export default createStore(reducer, applyMiddleware(promise(), thunk, createLogger()))

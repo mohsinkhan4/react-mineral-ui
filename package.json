@@ -18,7 +18,11 @@
     "bootstrap": "^3.3.7",
     "d3": "^4.9.1",
     "express": "^4.15.3",
+    "glamor": "^2.20.40",
+    "glamorous": "^4.12.5",
     "history": "^3.3.0",
+    "mineral-ui": "^0.32.0",
+    "mineral-ui-icons": "^0.4.0",
     "react": "^15.4.4",
     "react-dom": "^15.4.4",
     "react-redux": "^5.0.4",
@@ -32,11 +36,11 @@
   },
   "devDependencies": {},
   "scripts": {
-      "build:dev": "webpack --env=dev --progress --profile --colors",
-      "build:dist": "webpack --env=prod --progress --profile --colors",
-      "dev": "webpack-dev-server --content-base src --inline --hot --port 3001 --host 0.0.0.0",
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
+    "build:dev": "webpack --env=dev --progress --profile --colors",
+    "build:dist": "webpack --env=prod --progress --profile --colors",
+    "dev": "webpack-dev-server --content-base src --inline --hot --port 3001 --host 0.0.0.0",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "mohsinkhan",
   "license": "ISC"
